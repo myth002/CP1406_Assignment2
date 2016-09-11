@@ -8,6 +8,7 @@ height:30px;
 bottom:0;
 min-height:0%;
 overflow:hidden;
+background-color:#E9181C
 }
 
 table.table1{
@@ -31,17 +32,20 @@ body{
 	margin:0;
 }
  
+h2 {
+	align:left;
+}
+
 p {
 position:relative;
 margin-left:auto;
 margin-right:auto;
 margin-bottom:0;
-background:#2C7696;
 }
 
 .team {
-  padding-left:20em;
-  padding-right:20em;
+  padding-left:30em;
+  padding-right:30em;
 }
 .ch-grid {
 	padding: 0;
@@ -112,7 +116,7 @@ background:#2C7696;
 }
 
 .ch-info .ch-info-front {
-	box-shadow: inset 0 0 0 16px rgba(0,0,0,0.3);
+	box-shadow: inset 0 0 0 8px rgba(0,0,0,1);
 }
 
 .ch-info .ch-info-back {
@@ -139,14 +143,17 @@ background:#2C7696;
 	z-index: 10;
 }
 .ch-img-4 { 
-	  background: url(../img/we-re-rabbits-.png)no-repeat;
+	  background: url(../images/Party/p2/p2-2.jpg)no-repeat;
+	  background-size:contain;
 	z-index: 10;
 }
 .ch-img-5 { 
-	  background: url(../img/sewingpr.png)no-repeat;
+	  background: url(../images/Party/p3/p3-2.jpg)no-repeat;
+	  background-size:contain;
 	z-index: 10;
 }.ch-img-6 { 
-	  background: url(../img/boromirpr.png)no-repeat;
+	  background: url(../images/Party/p4/p4-2.jpg)no-repeat;
+	  background-size:contain;
 	z-index: 10;
 }.ch-img-7 { 
 	  background: url(../img/alicepr.png)no-repeat;
@@ -157,12 +164,6 @@ background:#2C7696;
 }
 .ch-img-9 { 
 	  background: url(../img/boromirpr.png)no-repeat;
-	z-index: 10;
-}.ch-img-10 { 
-	  background: url(../img/sewingpr.png)no-repeat;
-	z-index: 10;
-}.ch-img-11 { 
-	  background: url(../img/devilspr.png)no-repeat;
 	z-index: 10;
 }
 .ch-info h3 {
