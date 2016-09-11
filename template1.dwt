@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link href="file:///C|/Users/user/Desktop/CP1406 Assignment 2/css/css_main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<h1>Header</h1>
+<p>
+<table class ="table1">
+  <tbody>
+    <tr>
+      <td>Home</td>
+      <td>Products</td>
+      <td>Services</td>
+      <td>Cafe</td>
+      <td>Events</td>
+      <td>F.A.Q</td>
+      <td>Contact us</td>
+      <td>Order now</td>
+    </tr>
+  </tbody>
+</table>
+</p>
+<!-- TemplateBeginEditable name="EditRegion1" -->
+<p> Content</p>
+<!-- TemplateEndEditable -->
+<p id="Footer"> Footer</p>
+</body>
+</html>
