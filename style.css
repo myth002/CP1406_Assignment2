@@ -8,6 +8,9 @@ h1{
 text-align:center;
 }
 
+h2{font-size:36px;
+}
+
 #Footer{
 height:50px;
 margin-top:50px;
@@ -15,7 +18,7 @@ background-color:#FF0004;
 }
 
 table.table1{
-border:1px solid black;
+border:2px solid black;
 border-collapse:collapse;
 max-width:auto;
 margin:auto;
@@ -40,6 +43,8 @@ padding: 1em;
 float:left;
 position:relative;
 width:20em;
+margin-left:10em;
+margin-right:2em;
 }
 
 .image2{
@@ -47,6 +52,8 @@ padding: 1em;
 float:right;
 position:relative;
 width:20em;
+margin-right:10em;
+margin-left:2em;
 }
 
 .image3{
@@ -55,6 +62,8 @@ clear:left;
 float:left;
 position:relative;
 width:20em;
+margin-left:10em;
+margin-right:2em;
 }
 
 .image4{
@@ -63,21 +72,28 @@ clear:right;
 float:right;
 position:relative;
 width:20em;
+margin-right:10em;
+margin-left:2em;
 }
 
 .image5{
-	position:relative;
-	width:80%;
-	display:block;
-	margin-left:auto;
-	margin-right:auto;
+position:relative;
+width:80%;
+display:block;
+margin-left:auto;
+margin-right:auto;
 }
 
 .home{
 position:absolute;
-top:300px;
-left:200px;
-width:100%;
+float:left;
+top:20%;
+left:30%;
+width:30%;
+padding:2em;
+font-size:36px;
+margin-left:auto;
+margin-right:auto;
 }
 
 body{
@@ -105,11 +121,14 @@ margin-bottom:0;
 }
 
 .pAbout{
-	width:60%;
-padding-left:10em;
-padding-right:10em;
+width:30%;
+padding-left:5em;
+padding-right:5em;
+padding-top:2em;
 height:40em;
 background:#FFFFFF;
+margin-left:auto;
+margin-right:auto;
 }
 
 .team {
