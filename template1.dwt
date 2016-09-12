@@ -37,6 +37,13 @@
 </div>
 </div>
 </div>
-<p id="Footer">This is the footer</p>
+<div id="Footer"> <a href="../index.html"><img src="../images/logo.jpg" class="imagelogo"/></a>
+<p class="footermiddle">© 2016 Frias</p>
+<div class="footerright">
+<p><a href="../about.html">About us</a></p> 
+<p>F.A.Q</p> 
+<p>Contact</p>
+</div>
+</div>
 </body>
 </html>
