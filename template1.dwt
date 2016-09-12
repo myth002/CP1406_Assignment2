@@ -37,12 +37,18 @@
 </div>
 </div>
 </div>
-<div id="Footer"> <a href="../index.html"><img src="../images/logo.jpg" class="imagelogo"/></a>
-<p class="footermiddle">© 2016 Frias</p>
+<div id="Footer"> <a href="../index.html"><img src="../images/logo.jpg" width="100" height = "50"class="imagelogo"/></a>
+<p class="footermiddle">© 2016 Frias. All rights reserved</p>
 <div class="footerright">
-<p><a href="../about.html">About us</a></p> 
-<p>F.A.Q</p> 
-<p>Contact</p>
+<table class="table2">
+  <tbody>
+    <tr>
+      <td><a href="../about.html">About us</a></td>
+      <td>F.A.Q</td>
+      <td>Contact Us</td>
+    </tr>
+  </tbody>
+</table>
 </div>
 </div>
 </body>
