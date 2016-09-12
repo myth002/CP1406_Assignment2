@@ -7,16 +7,17 @@
 <!-- TemplateEndEditable -->
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
-<link href="file:///C|/Users/user/Desktop/CP1406 Assignment 2/css/css_main.css" rel="stylesheet" type="text/css">
+<link href="../style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<h1>Header</h1>
+<h1>FRIAS</h1>
 <p>
 <table class ="table1">
   <tbody>
     <tr>
-      <td>Home</td>
-      <td>Products</td>
+      <td><a href="../index.html">Home</a></td>
+      <td><a href="../about.html">About Us</a></td>
+      <td><a href="../products.html">Products</a></td>
       <td>Services</td>
       <td>Cafe</td>
       <td>Events</td>
@@ -27,9 +28,15 @@
   </tbody>
 </table>
 </p>
+<div class="content">
+<div class="content-inside">
 <!-- TemplateBeginEditable name="EditRegion1" -->
 <p> Content</p>
 <!-- TemplateEndEditable -->
-<p id="Footer"> Footer</p>
+<div class="push">
+</div>
+</div>
+</div>
+<p id="Footer">This is the footer</p>
 </body>
 </html>
