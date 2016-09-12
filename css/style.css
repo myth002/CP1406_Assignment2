@@ -4,6 +4,13 @@
 html{height:100%;
 margin:0}
 
+h1{
+text-align:center;
+}
+
+h2{font-size:36px;
+}
+
 #Footer{
 width:100%;
 height:45px;
@@ -17,7 +24,7 @@ padding-bottom:1em;
 .imagelogo{
 max-width:50%;
 float:left;
-left:35%;
+left:30%;
 position:relative;
 }
 
@@ -38,63 +45,42 @@ border:2px solid black;
 border-collapse:collapse;
 max-width:auto;
 margin:auto;
+height:3em;
 }
 
 table,table1 tr{
-width: 100%
+width: 80%;
 }
 
 table.table1 td{
 border:2px solid black;
 text-align:center;
+background-color:#FFFFFF;
+width:8%;
 }
 
-body{
-width:100%;
-min-height:100%;
-margin:0;
+table.table2{
+text-align:center;
+width:15em;
 position:relative;
+top:8px;
 }
- 
-h2 {
-	align:left;
+
+table.table2 td{
+	text-align:center;
+width:20px;
 }
 
 .push{height:50px;}
 
-.box img {
-	height:40em;
-	width:40em;
-}
-
-.content{
-	min-height:100%;
-}
- 
-.content-inside{
-	padding:20px;
-	padding-bottom:50px;
-}
-
-a {
-	cursor:pointer;
-	text-decoration:none;
-}
-
-p {
-position:relative;
-margin-left:auto;
-margin-right:auto;
-margin-bottom:0;
-}
 
 .image1{
 padding: 1em;
 float:left;
 position:relative;
 width:20em;
-margin-left:10em;
-margin-right:2em;
+margin-left:1em;
+margin-right:1em;
 }
 
 .image2{
@@ -102,8 +88,8 @@ padding: 1em;
 float:right;
 position:relative;
 width:20em;
-margin-right:10em;
-margin-left:2em;
+margin-right:1em;
+margin-left:1em;
 }
 
 .image3{
@@ -112,8 +98,8 @@ clear:left;
 float:left;
 position:relative;
 width:20em;
-margin-left:10em;
-margin-right:2em;
+margin-left:1em;
+margin-right:1em;
 }
 
 .image4{
@@ -122,8 +108,8 @@ clear:right;
 float:right;
 position:relative;
 width:20em;
-margin-right:10em;
-margin-left:2em;
+margin-right:1em;
+margin-left:1em;
 }
 
 .image5{
@@ -137,19 +123,43 @@ margin-right:auto;
 .home{
 position:absolute;
 float:left;
-top:20%;
-left:30%;
-width:30%;
+top:10%;
+left:25%;
+width:40%;
 padding:2em;
 font-size:36px;
 margin-left:auto;
 margin-right:auto;
 }
 
+body{
+width:100%;
+min-height:100%;
+margin:0;
+position:relative;
+background-image:url(images/Background.png)
+}
+
+.content{
+	min-height:100%;
+}
+ 
+.content-inside{
+	padding:20px;
+	padding-bottom:50px;
+}
+ 
+p{
+position:relative;
+margin-left:auto;
+margin-right:auto;
+margin-bottom:0;
+}
+
 .pAbout{
-width:30%;
-padding-left:5em;
-padding-right:5em;
+width:40%;
+padding-left:2em;
+padding-right:2em;
 padding-top:2em;
 height:40em;
 background:#FFFFFF;
@@ -158,8 +168,8 @@ margin-right:auto;
 }
 
 .team {
-  padding-left:30em;
-  padding-right:30em;
+  padding-left:20em;
+  padding-right:20em;
 }
 .ch-grid {
 	padding: 0;
@@ -230,7 +240,7 @@ margin-right:auto;
 }
 
 .ch-info .ch-info-front {
-	box-shadow: inset 0 0 0 8px rgba(0,0,0,1);
+	box-shadow: inset 0 0 0 16px rgba(0,0,0,0.3);
 }
 
 .ch-info .ch-info-back {
@@ -243,47 +253,44 @@ margin-right:auto;
 	opacity: 0;
 }
 .ch-img-1 { 
-	  background:url(../images/Beach/b3/b3-2.png)no-repeat;
-	  background-size:contain;
+	  background: url(../img/winterpr.png)no-repeat;
 	z-index: 12;
 }
 
 .ch-img-2 { 
-	  background: url(../images/Beach/b5/b5-2.png)no-repeat;
-	  background-size:10em;
+	  background: url(../img/boromirpr.png)no-repeat;
 	z-index: 11;
 }
 
 .ch-img-3 { 
-	  background: url(../images/Beach/b1/b1-2.png);
-	  background-size:contain;
+	  background: url(../img/spidermanpr.png)no-repeat;
 	z-index: 10;
 }
 .ch-img-4 { 
-	  background: url(../images/Party/p2/p2-2.jpg)no-repeat;
-	  background-size:contain;
+	  background: url(../img/we-re-rabbits-.png)no-repeat;
 	z-index: 10;
 }
 .ch-img-5 { 
-	  background: url(../images/Party/p3/p3-2.jpg)no-repeat;
-	  background-size:contain;
+	  background: url(../img/sewingpr.png)no-repeat;
 	z-index: 10;
 }.ch-img-6 { 
-	  background: url(../images/Party/p4/p4-2.jpg)no-repeat;
-	  background-size:contain;
+	  background: url(../img/boromirpr.png)no-repeat;
 	z-index: 10;
 }.ch-img-7 { 
-	  background: url(../images/Casual/c1/c1-1.jpg)no-repeat;
-	  background-size:contain;
+	  background: url(../img/alicepr.png)no-repeat;
 	z-index: 10;
 }.ch-img-8 { 
-	  background: url(../images/Casual/c2/c2-1.jpg)no-repeat;
-	  background-size:contain;
+	  background: url(../img/winterpr.png)no-repeat;
 	z-index: 10;
 }
 .ch-img-9 { 
-	  background:url(../images/Casual/c7/c7-2.jpg);
-	  background-size:contain;
+	  background: url(../img/boromirpr.png)no-repeat;
+	z-index: 10;
+}.ch-img-10 { 
+	  background: url(../img/sewingpr.png)no-repeat;
+	z-index: 10;
+}.ch-img-11 { 
+	  background: url(../img/devilspr.png)no-repeat;
 	z-index: 10;
 }
 .ch-info h3 {
