@@ -79,8 +79,8 @@ width:20px;
 padding: 1em;
 float:left;
 position:relative;
-width:20em;
-margin-left:1em;
+width:17em;
+margin-left:5em;
 margin-right:1em;
 }
 
@@ -88,8 +88,8 @@ margin-right:1em;
 padding: 1em;
 float:right;
 position:relative;
-width:20em;
-margin-right:1em;
+width:17em;
+margin-right:5em;
 margin-left:1em;
 }
 
@@ -98,8 +98,8 @@ padding:1em;
 clear:left;
 float:left;
 position:relative;
-width:20em;
-margin-left:1em;
+width:17em;
+margin-left:5em;
 margin-right:1em;
 }
 
@@ -108,8 +108,8 @@ margin-right:1em;
 clear:right;
 float:right;
 position:relative;
-width:20em;
-margin-right:1em;
+width:17em;
+margin-right:5em;
 margin-left:1em;
 }
 
