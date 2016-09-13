@@ -3,7 +3,7 @@
 
 html{height:100%;
 margin:0;
-background-image:url(../images/w5.jpg)}
+}
 
 h1{
 text-align:center;
@@ -139,7 +139,7 @@ body{
 min-height:100%;
 margin:0;
 position:relative;
-background-image:url(images/Background.png)
+background-image:url(images/w5.jpg)
 }
 
 .content{
