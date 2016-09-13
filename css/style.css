@@ -2,8 +2,8 @@
 /* CSS Document */
 
 html{height:100%;
-background-image:url(../images/f12.jpg);
-margin:0}
+margin:0;
+background-image:url(../images/w5.jpg)}
 
 h1{
 text-align:center;
@@ -23,14 +23,14 @@ padding-bottom:1em;
 }
 
 .imagelogo{
-max-width:50%;
+max-width:30%;
 float:left;
 left:30%;
 position:relative;
 }
 
 .footermiddle{text-align:left;
-margin-left:37%;
+margin-left:30%;
 position:relative;
 float:left;
 bottom:5px;}
@@ -42,8 +42,7 @@ float:left;
 }
 
 table.table1{
-border:2px solid black;
-border-collapse:collapse;
+border-collapse:separate;
 max-width:auto;
 margin:auto;
 height:3em;
@@ -57,7 +56,8 @@ table.table1 td{
 border:2px solid black;
 text-align:center;
 background-color:#FFFFFF;
-width:8%;
+width:10%;
+border-radius:10px;
 }
 
 table.table2{
