@@ -30,7 +30,7 @@ position:relative;
 }
 
 .footermiddle{text-align:left;
-margin-left:30%;
+margin-left:31%;
 position:relative;
 float:left;
 bottom:5px;}
@@ -140,6 +140,7 @@ min-height:100%;
 margin:0;
 position:relative;
 background-image:url(../images/w1.gif);
+background-size:cover;
 background-repeat:repeat-y;
 }
 
