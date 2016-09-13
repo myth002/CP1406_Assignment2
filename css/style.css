@@ -10,6 +10,8 @@ text-align:center;
 }
 
 h2{font-size:36px;
+color:#EF3BAB;
+font-family: 'Baloo Tamma', cursive;
 }
 
 #Footer{
@@ -41,11 +43,22 @@ position:relative;
 float:left;
 }
 
+table a {
+	text-decoration:none;
+	color:#000000;
+}
+
+table a:hover {
+	color:#C63D0F;
+}
+
 table.table1{
 border-collapse:separate;
 max-width:auto;
 margin:auto;
 height:3em;
+font-size:24px;
+font-family: 'Baloo Tamma', cursive;
 }
 
 table,table1 tr{
@@ -65,6 +78,9 @@ text-align:center;
 width:15em;
 position:relative;
 top:8px;
+font-family: 'Arvo', serif;
+font-size:20px;
+FONT-WEIGHT:bold;
 }
 
 table.table2 td{
@@ -74,13 +90,13 @@ width:20px;
 
 .push{height:50px;}
 
-
 .image1{
 padding: 1em;
 float:left;
 position:relative;
-width:17em;
-margin-left:5em;
+width:15em;
+margin-bottom:3em;
+margin-left:15%;
 margin-right:1em;
 }
 
@@ -88,8 +104,9 @@ margin-right:1em;
 padding: 1em;
 float:right;
 position:relative;
-width:17em;
-margin-right:5em;
+width:15em;
+margin-bottom:3em;
+margin-right:15%;
 margin-left:1em;
 }
 
@@ -98,18 +115,18 @@ padding:1em;
 clear:left;
 float:left;
 position:relative;
-width:17em;
-margin-left:5em;
+width:15em;
+margin-left:15%;
 margin-right:1em;
 }
 
 .image4{
-	padding:1em;
+ padding:1em;
 clear:right;
 float:right;
 position:relative;
-width:17em;
-margin-right:5em;
+width:15em;
+margin-right:15%;
 margin-left:1em;
 }
 
@@ -132,6 +149,12 @@ padding:2em;
 font-size:36px;
 margin-left:auto;
 margin-right:auto;
+color:#FFFFFF;
+font-family: 'Arvo', serif;
+}
+
+.home h2 {
+	font-size:60px;
 }
 
 body{
@@ -158,10 +181,11 @@ position:relative;
 margin-left:auto;
 margin-right:auto;
 margin-bottom:0;
+font-family: 'Arvo', serif;
 }
 
 .pAbout{
-width:40%;
+width:30%;
 padding-left:1em;
 padding-right:1em;
 padding-top:2em;
@@ -193,6 +217,17 @@ margin-bottom:0;
 .team {
   padding-left:10%;
   padding-right:10%;
+  color:#3A85D4;
+}
+
+.container h2 {
+	padding-left:15%;
+}
+
+.container h3 {
+	padding-left:17%;
+	font-family: 'Arvo', serif;
+	font-style: italic;
 }
 
 .ch-grid {
@@ -398,7 +433,7 @@ margin-bottom:0;
     left:30%;
     right:30%;
     background-color:#fff;
-    color:#7F7F7F;
+    color:#3A85D4;
     padding:20px;
     border:2px solid #ccc;
     -moz-border-radius: 20px;
@@ -407,6 +442,7 @@ margin-bottom:0;
     -moz-box-shadow: 0 1px 5px #333;
     -webkit-box-shadow: 0 1px 5px #333;
     z-index:101;
+	font-family: 'Arvo', serif;
 }
 
 a.boxclose{
