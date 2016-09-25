@@ -28,20 +28,21 @@ padding-bottom:1em;
 .imagelogo{
 max-width:30%;
 float:left;
-left:30%;
+left:12%;
 position:relative;
 }
 
 .footermiddle{text-align:left;
-margin-left:31%;
+margin-left:14%;
 position:relative;
 float:left;
-bottom:5px;}
+bottom:4px;}
 
 .footerright{text-align:left;
 margin-left:1%;
 position:relative;
-float:left;
+float:right;
+	right:12%;
 }
 
 table a {
