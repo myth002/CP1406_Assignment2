@@ -3,6 +3,7 @@
 
 html{height:100%;
 margin:0;
+position:relative;
 }
 
 h1{
@@ -14,15 +15,24 @@ color:#EF3BAB;
 font-family: 'Baloo Tamma', cursive;
 }
 
+.wrapper{
+	min-height:100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -50px;
+}
+
 #Footer{
 width:100%;
-height:45px;
-margin-top:50px;
-margin:auto;
+height:50px;
+position:absolute;
 background-color:#55286f;
 color:#ffffff;
+left:0;
+right:0;
 padding-top:1em;
 padding-bottom:1em;
+overflow:hidden;
 }
 
 .imagelogo{
@@ -98,7 +108,7 @@ table.table3{
 	margin-top:5%;
 }
 
-.push{height:50px;}
+.push{height:40px;}
 
 .image1{
 padding: 1em;
@@ -168,9 +178,10 @@ font-family: 'Arvo', serif;
 }
 
 body{
-	width:100%;
-min-height:100%;
+width:100%;
+height:100%;
 margin:0;
+margin-bottom:50px;
 position:relative;
 background-image:url(../images/w1.gif);
 background-size:cover;

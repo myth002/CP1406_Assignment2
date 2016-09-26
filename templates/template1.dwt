@@ -13,6 +13,7 @@
 <link href="https://fonts.googleapis.com/css?family=Arvo|Baloo+Tamma" rel="stylesheet">
 </head>
 <body>
+<div class="wrapper">
 <h1>
 <img src="../images/logo.png"/>
 </h1>
@@ -25,7 +26,7 @@
       <td><a href="../products.html">Products</a></td>
       <td>Services</td>
       <td>Caf&#233</td>
-      <td><a href="events.html">Events</td>
+      <td><a href="events.html">Events</a></td>
       <td>F.A.Q</td>
       <td>Contact us</td>
       <td>Order now</td>
@@ -36,6 +37,9 @@
 <!-- TemplateBeginEditable name="EditRegion3" -->
 <p> Content</p>
 <!-- TemplateEndEditable -->
+<div class="push">
+</div>
+</div>
 <div id="Footer"> <a href="../index.html"><img src="../images/logo.png" width="100" height = "50"class="imagelogo"/></a>
 <p class="footermiddle">© 2016 Frias. All rights reserved</p>
 <div class="footerright">
