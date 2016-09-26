@@ -46,8 +46,8 @@ float:right;
 }
 
 table a {
-	text-decoration:none;
-	color:#ffffff;
+text-decoration:none;
+color:#ffffff;
 }
 
 table a:hover {
@@ -89,6 +89,13 @@ FONT-WEIGHT:bold;
 table.table2 td{
 	text-align:center;
 width:20px;
+}
+
+table.table3{
+	width:40em;
+	float:left;
+	margin-left:25%;
+	margin-top:5%;
 }
 
 .push{height:50px;}
