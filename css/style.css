@@ -105,7 +105,7 @@ width:20px;
 
 table.table3{
 	float:left;
-	width:40em;
+	width:31em;
 	border-collapse: collapse;
 	margin-left:22%;
 	margin-top:4%;
@@ -115,18 +115,19 @@ table.table3{
 .pEventMap{
 	text-align:center;
 	float:right;
-	width:40em;
-	margin-left:auto;
-	margin-right:22%;
+	width:29em;
+	margin-right:20%;
 	margin-top:5%;
-	line-height:50px;
+	line-height:30px;
 }
 
 .gmap1{
 	margin-left:auto;
 	margin-right:auto;
-	width:400px;
-	height:400px;
+	padding-top:2em;
+	padding-bottom:1em;
+	width:350px;
+	height:350px;
 	frameborder:0;
 	border:0;
 }
@@ -148,7 +149,7 @@ table.table3{
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:5%;
-	margin-bottom:10%;
+	margin-bottom:5%;
 }
 
 table.table3 td{
