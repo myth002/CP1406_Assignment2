@@ -581,14 +581,28 @@ a.boxclose{
 
 .faq2{
 	text-align: left;
-	width:600px;
+	width:60%;
 	margin-left:20%;
 	margin-right:70%;
 	margin-top:3%;
 	margin-bottom:5%;
 }
-	
-	
+
+.faq2 h2 {
+	font-size: 50px;
+}
+
+.question {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.faq2 p {
+	font-size: 25px;
+}
+
+
+
 .service1{
 	text-align: center;
 	width: 70%;
