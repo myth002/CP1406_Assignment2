@@ -10,7 +10,7 @@
 <link href="css/style.css" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="script/jquery-3.1.0.js"></script>
 <script src="script/common.js"></script>
-<link href="https://fonts.googleapis.com/css?family=Arvo|Baloo+Tamma" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Arvo|Baloo+Tamma|Indie+Flower" rel="stylesheet">
 </head>
 <body>
 <div class="wrapper">
@@ -46,7 +46,7 @@
         </tr>
         <tr>
             <td>Email Address:</td>
-            <td>Frias@Gmail.com</td>
+            <td>Frias@gmail.com</td>
         </tr>
         <tr>
             <td>Address:</td>
@@ -54,8 +54,32 @@
         </tr>
         </tbody>
     </table>
-    <p>Please do note that any email enquiries will take between one to two days before getting a response. <br>Our office hours are from 9.00am to 5.00pm</p>
+    <p>Please do note that any email enquiries will take between one to two days before getting a response.Our office hours are from 9.00am to 5.00pm.</p>
     <p>Or, if you would prefer, fill up the form below!</p>
+        <div class="feedbackform">
+        <h2>Feedback Form</h2>
+        <form>
+            <table id="feedbacktable">
+                <tbody>
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" size="30" id="fname"></td>
+                </tr>
+                    <td>E-mail Address:</td>
+                    <td><input name="email" size="30" type="email" required id="email"></td>
+                </tr>
+                <tr>
+                    <td>Feedback:</td>
+                    <td><textarea maxlength="100" rows="8" cols="31"></textarea></td>
+                </tr>
+                <tr>
+                    <td align="center"><input name="submit" type="submit" id="submit" formmethod="POST"></td>
+                    <td align="center"><input name="reset" type="reset" id="reset"></td>
+                </tr>
+                </tbody>
+            </table>
+        </form>
+        </div>
     </div>
     <!-- InstanceEndEditable -->
 <div class="push">
