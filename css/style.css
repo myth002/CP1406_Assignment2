@@ -66,8 +66,7 @@ table a:hover {
 }
 
 table.table1{
-border-collapse:separate;
-max-width:auto;
+max-width: 100%;
 margin:auto;
 height:3em;
 font-size:24px;
@@ -612,10 +611,12 @@ a.boxclose{
 .question {
 	font-size: 40px;
 	font-weight: bold;
+	font-family: 'Indie Flower', cursive;
 }
 
 .faq2 p {
 	font-size: 25px;
+	font-family: 'Indie Flower', cursive;
 }
 
 
