@@ -176,8 +176,6 @@ table.table4 td{
     border-radius:20px;
 }
 
-.push{height:40px;}
-
 .image1{
 padding: 1em;
 float:left;
@@ -232,8 +230,8 @@ margin-left:auto;
 .home{
 position:absolute;
 float:left;
-top:10%;
-left:25%;
+top:20%;
+left:30%;
 width:40%;
 padding:2em;
 font-size:28px;
