@@ -688,3 +688,84 @@ a.boxclose{
 	margin-right:auto;
 }
 	
+.pCafe1{
+	text-align: center;
+width:40%;
+	margin-left:30%;
+	margin-right:30%;
+}
+
+.pCafe2{
+	clear:left;
+	text-align:center;
+	width:40%;
+	margin-left:30%;
+	margin-right:30%;
+}
+
+.pCafe3{
+	clear:right;
+	padding-top:5%;
+	margin-bottom:10%;
+	text-align: center;
+	width:40%;
+	margin-left:30%;
+	margin-left:30%;
+}
+
+.cafeh2{
+	text-align:center;
+	width:30%;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+.cafeimg1{
+	padding: 1em;
+	float:left;
+	width:100%;
+	margin-top:3%;
+	margin-bottom:5em;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.cafeimg2{
+	padding-right: 2em;
+	float:left;
+	width:20%;
+	margin-top:2%;
+	margin-bottom:5em;
+	margin-left:25%;
+	margin-right:auto;
+}
+
+.cafeimg3{
+	padding-left: 2em;
+	float:right;
+	width:25%;
+	margin-top:2%;
+	margin-bottom:5em;
+	margin-left:auto;
+	margin-right:25%;
+}
+
+.cafeimg4{
+	padding-left: 2em;
+	float:left;
+	width:25%;
+	margin-top:3%;
+	margin-bottom:3em;
+	margin-left:23%;
+	margin-right:auto;
+}
+
+.cafeimg5{
+	padding-left: 2em;
+	float:right;
+	width:25%;
+	margin-top:3%;
+	margin-bottom:3em;
+	margin-left:auto;
+	margin-right:23%;
+}
