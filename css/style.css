@@ -359,8 +359,15 @@ p {
 
 .container h3 {
 	padding-left:17%;
-	font-family: 'Arvo', serif;
-	font-style: italic;
+	font-family: 'Indie Flower', cursive;
+	font-size:20px;
+	font-style:italic;
+}
+
+.box p {
+	font-family: 'Indie Flower', cursive;
+	font-size:25px;
+	font-weight:bold;
 }
 
 .ch-grid {
