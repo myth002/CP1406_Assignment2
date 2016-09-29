@@ -599,8 +599,8 @@ a.boxclose{
 
 .box h4{
     border-bottom: 1px dashed #7F7F7F;
-    margin:-20px -20px 0px -20px;
-    padding:10px;
+    margin:0px -20px 0px -20px;
+    padding:15px;
     background-color:#FFEFEF;
     color:#EF7777;
 	font-size:30px;
