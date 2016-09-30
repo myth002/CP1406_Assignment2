@@ -3,7 +3,18 @@
 
 html{height:100%;
 margin:0;
+}
 
+.box p span{
+    float:left;
+    position:relative;
+    margin-left:0;
+}
+
+.product_order{
+    text-decoration: none;
+    float:right;
+    position:relative;
 }
 
 h1{
