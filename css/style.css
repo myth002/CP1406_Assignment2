@@ -98,6 +98,8 @@ text-align:center;
 background-color:#55286f;
 color:#ffffff;
 width:10%;
+height:100%;
+margin:0;
 border-radius:10px;
 }
 
@@ -1236,3 +1238,4 @@ cursor:pointer;
 .pEvent4 h2{
 	font-size: 40px;
 }
+
