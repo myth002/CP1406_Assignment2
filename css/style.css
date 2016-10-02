@@ -88,8 +88,8 @@ font-family: 'Baloo Tamma', cursive;
     margin-bottom:40px;
 }
 
-table,table1 tr{
-width: 80%;
+table.table1 tr{
+width: 66.5%;
 }
 
 table.table1 td{

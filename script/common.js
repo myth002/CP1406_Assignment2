@@ -163,9 +163,9 @@ $(document).ready(function() {
             play: {
                 active: true,
                 auto: true,
-                interval: 3000,
+                interval: 5000,
                 swap: true,
-                restartDelay: 1500
+                restartDelay: 2000
             }
         });
     });
