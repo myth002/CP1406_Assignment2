@@ -929,3 +929,23 @@ a.boxclose{
 	width:25%;
 	margin-right:25%;
 }
+
+.faqh2{
+	font-size:26px;
+	margin-left:10%;
+	margin-right:auto;
+}
+
+.pFAQ{
+	font-size:22px;
+	padding:1%;
+	margin-left:10%;
+	margin-right:auto;
+}
+
+.pSvc{
+	margin-left:auto;
+	margin-right:auto;
+	padding:0;
+	margin-bottom:0;
+}
