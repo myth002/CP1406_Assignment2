@@ -164,7 +164,8 @@ $(document).ready(function() {
                 active: true,
                 auto: true,
                 interval: 3000,
-                swap: true
+                swap: true,
+                restartDelay: 1500
             }
         });
     });
