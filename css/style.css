@@ -638,8 +638,8 @@ a.boxclose{
 	width:70%;
 	margin-left:auto;
 	margin-right:auto;
-	margin-top:3%;
-	margin-bottom:-1%;
+	margin-top:5%;
+	margin-bottom:5%;
 }
 
 .faq2{
@@ -647,8 +647,6 @@ a.boxclose{
 	width:60%;
 	margin-left:20%;
 	margin-right:70%;
-	margin-top:3%;
-	margin-bottom:5%;
 }
 
 .faq1 h1 {
@@ -658,18 +656,9 @@ a.boxclose{
 	font-weight: bold;
 }
 
-.faq2 h2 {
-	font-size: 55px;
-}
-
 .question {
 	font-size: 55px;
 	font-weight: 900;
-	font-family: 'Indie Flower', cursive;
-}
-
-.faq2 p {
-	font-size: 30px;
 	font-family: 'Indie Flower', cursive;
 }
 
@@ -1039,8 +1028,8 @@ a:hover.slidesjs-stop {
 	margin-right:25%;
 }
 
-.faqh2{
-	font-size:26px;
+.faq2 h2{
+	font-size:50px;
 	margin-left:10%;
 	margin-right:auto;
 }
@@ -1050,6 +1039,8 @@ a:hover.slidesjs-stop {
 	padding:1%;
 	margin-left:10%;
 	margin-right:auto;
+    color:#EF3BAB;
+
 }
 
 .pSvc{
@@ -1057,4 +1048,23 @@ a:hover.slidesjs-stop {
 	margin-right:auto;
 	padding:0;
 	margin-bottom:0;
+    color:#EF3BAB;
+}
+
+.pFAQ h3{
+    color:#3A85D4;
+}
+
+.pFAQ h3:hover{
+color:#BD133A;
+font-weight: bold;
+}
+
+.pSvc h3{
+    color:#3A85D4
+}
+
+.pSvc h3:hover{
+color:#BD133A;
+font-weight: bold;
 }
