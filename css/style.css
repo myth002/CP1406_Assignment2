@@ -1058,6 +1058,7 @@ a:hover.slidesjs-stop {
 .pFAQ h3:hover{
 color:#BD133A;
 font-weight: bold;
+cursor: pointer;
 }
 
 .pSvc h3{
@@ -1067,4 +1068,5 @@ font-weight: bold;
 .pSvc h3:hover{
 color:#BD133A;
 font-weight: bold;
+cursor:pointer;
 }
