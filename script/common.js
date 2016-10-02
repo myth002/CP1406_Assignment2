@@ -163,10 +163,17 @@ $(document).ready(function() {
             play: {
                 active: true,
                 auto: true,
-                interval: 5000,
+                interval: 3500,
                 swap: true,
                 restartDelay: 2000
             }
         });
     });
+        var cx = '018311955383715191124:9mwvt3kwoe4';
+        var gcse = document.createElement('script');
+        gcse.type = 'text/javascript';
+        gcse.async = true;
+        gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(gcse, s);
 });
