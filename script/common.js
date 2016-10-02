@@ -104,7 +104,7 @@ $(function() {
     $("select[name='numberp3']").change(function(){
         var $d = $("select[name='numberp3']");
         var n = parseFloat($d.val());
-        var r = (19.99*n).toFixed(2);
+        var r = (24.99*n).toFixed(2);
         $("#resultp3").val('$'+r);
     });
     $("select[name='numberb1']").change(function(){
@@ -116,7 +116,7 @@ $(function() {
     $("select[name='numberb2']").change(function(){
         var $d = $("select[name='numberb2']");
         var n = parseFloat($d.val());
-        var r = (19.99*n).toFixed(2);
+        var r = (14.99*n).toFixed(2);
         $("#resultb2").val('$'+r);
     });
     $("select[name='numberb3']").change(function(){
