@@ -117,9 +117,9 @@ width:25px;
 }
 
 table.table3 {
-	float: left;
-	width: 31em;
-	margin-left: 22%;
+	width:60%;
+	margin-left:20%;
+	margin-right:400px;
 	margin-top: 4%;
 	margin-bottom: 2%;
 	background-color: #ffe6f0;
@@ -129,8 +129,8 @@ table.table3 {
 
 .pEventMap{
 	text-align:center;
-	float:right;
 	width:29em;
+	margin-left:34%;
 	margin-right:20%;
 	margin-top:5%;
 	line-height:30px;
@@ -158,22 +158,22 @@ table.table3 {
 }
 
 .pEvents1 p {
-	font-size:30px;
-	font-weight:bolder;
-	font-family: 'Indie Flower', cursive;
+	font-size: 30px;
+	font-weight: bolder;
+	font-family: "Indie Flower", cursive;
 }
 
 .pEvents2{
-	clear:left;
+	clear: left;
 	text-align: center;
-	width:30%;
-	margin-left:auto;
-	margin-right:auto;
-	margin-top:5%;
-	margin-bottom:5%;
-	font-size:30px;
-	font-weight:bolder;
-	font-family: 'Indie Flower', cursive;
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	font-size: 30px;
+	font-weight: bolder;
+	font-family: "Indie Flower", cursive;
 }
 
 table.table3 td{
@@ -299,6 +299,7 @@ background-size:cover;
 background-repeat:repeat-y;
 }
 
+
 .content{
 	min-height:100%;
 }
@@ -339,6 +340,7 @@ line-height:200%;
     line-height:3em;
 	font-family: 'Arvo', serif;
 	font-size: 20px;
+	float:left;
 }
 
 .pContactUs2{
@@ -876,7 +878,7 @@ a.boxclose{
 }
 
 .feedbackform {
-	width:60%;
+	width:50%;
 	padding-left:1em;
 	padding-right:1em;
 	padding-top:1em;
@@ -890,15 +892,17 @@ a.boxclose{
 	line-height:200%;
 	font-family: 'Indie Flower', cursive;
 	font-size: 30px;
+	clear:both;
 }
 
 .feedbackform h2 {
 	position: relative;
-	margin-left:20%;
-	margin-top:0;
+	margin-left: 20%;
+	margin-top: 0;
 	font-size: 40px;
 	font-weight: bold;
 	font-family: 'Indie Flower', cursive;
+	color: #E567B2;
 }
 
 #feedbacktable {
@@ -907,3 +911,21 @@ a.boxclose{
 	margin-right:auto;
 }
 
+#eventimg{
+	margin:1px auto;
+	display:block;
+}
+
+#contactmain{
+	float:left;
+	width: 25%;
+	margin-left:20%;
+	font-family: 'Indie Flower', cursive;
+	
+}
+
+.pContactMap{
+	float:right;
+	width:25%;
+	margin-right:25%;
+}
