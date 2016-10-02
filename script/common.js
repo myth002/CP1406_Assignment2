@@ -152,7 +152,7 @@ $(function() {
             amountInfo = (amountInfo) ? amountInfo : 0; //Checking if number is otherwise set to 0
             total += amountInfo;
         });
-        $('input[name="totalPrice"]').val('S'+total.toFixed(2));
+        $('input[name="totalPrice"]').val('$'+total.toFixed(2));
     });
 
 });
