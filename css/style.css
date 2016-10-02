@@ -128,21 +128,24 @@ table.table3 {
 }
 
 .pEventMap{
+	clear:both;
 	text-align:center;
-	width:29em;
-	margin-left:34%;
-	margin-right:20%;
-	margin-top:5%;
+	width:55%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:2%;
 	line-height:30px;
 }
 
 .gmap1{
+	position:relative;
+	display: inline-block;
 	margin-left:auto;
 	margin-right:auto;
 	padding-top:2em;
 	padding-bottom:1em;
-	width:350px;
-	height:350px;
+	width:50em;
+	height:35em;
 	frameborder:0;
 	border:0;
 }
@@ -1154,4 +1157,69 @@ cursor: pointer;
 color:#BD133A;
 font-weight: bold;
 cursor:pointer;
+}
+
+.eventimg1{
+	float:left;
+	width:60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	position:relative;
+	display:block;
+}
+
+.eventimg2{
+	clear:right;
+	float:right;
+	width:30%;
+	margin-right:20%;
+	margin-top:8%;
+	margin-bottom:2%;
+	position:relative;
+
+}
+
+.eventimg3{
+	clear:right;
+	float:right;
+	width:30%;
+	margin-right:20%;
+	margin-bottom:5%;
+	position:relative;
+}
+
+.eventimg4{
+	clear:left;
+	float:left;
+	width:30%;
+	margin-left:20%;
+	margin-bottom:2%;
+	position:relative;
+}
+
+.eventimg5{
+	clear:left;
+	float:left;
+	width:30%;
+	margin-left:20%;
+	margin-bottom:10%;
+	position:relative;
+}
+
+.pEvents3{
+	clear:left;
+	float:left;
+	width:20%;
+	margin-left:20%;
+	margin-top:10%;
+	margin-bottom:30%;
+	position:relative;
+}
+
+.pEvents4{
+	clear:right;
+	float:right;
+	width:30%;
+	margin-right:20%;
+	position:relative;
 }
