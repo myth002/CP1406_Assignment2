@@ -647,6 +647,8 @@ a.boxclose{
 	width:60%;
 	margin-left:20%;
 	margin-right:70%;
+	margin-top:3%;
+	margin-bottom:5%;
 }
 
 .faq1 h1 {
@@ -654,6 +656,10 @@ a.boxclose{
 	font-family: 'Indie Flower', cursive;
 	color: #CC60D3;
 	font-weight: bold;
+}
+
+.faq2 h2 {
+	font-size: 55px;
 }
 
 .question {
@@ -729,6 +735,7 @@ a.boxclose{
 	margin-right:auto;
 	font-family:'Constantia';
 }
+
 #orderProducts {
 	position:relative;
 	width:140%;
@@ -912,6 +919,81 @@ input#submit, input#reset {
 	display:block;
 }
 
+.nav {
+    list-style-type: none;
+    top: 8px;
+}
+
+.nav li {
+    marign: 0;
+    padding: 0;
+}
+
+.nav a {
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 1;
+    font-weight: 800;
+    color: #afb2b6;
+    text-decoration: none;
+    display: block;
+    float: left;
+    padding: 6px 15px 2px;
+    border-radius: 10px;
+    margin: 0 5px;
+    text-shadow: 0 1px 4px rgba(0,0,0,.8);
+}
+
+.nav .active a, .nav a:hover { color: #fff }
+
+.nav a.active {
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px rgba(255,255,255,.1),inset 0 -1px 4px rgba(0,0,0,1);
+    background-color: #111;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    *zoom: 1;
+    width:60%;
+    position:relative;
+}
+.container:before,
+.container:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+.container:after {
+    clear: both;
+}
+.container-fluid {
+    padding-right: 20px;
+    padding-left: 20px;
+    *zoom: 1;
+}
+.container-fluid:before,
+.container-fluid:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+.container-fluid:after {
+    clear: both;
+}
+
+[class*="span"].hide,
+.row-fluid [class*="span"].hide {
+    display: none;
+}
+[class*="span"].pull-right,
+.row-fluid [class*="span"].pull-right {
+    float: right;
+}
+
+
 #slides {
     display: none;
 }
@@ -1014,6 +1096,9 @@ a:hover.slidesjs-stop {
 .navbar {
     overflow: hidden;
 }
+
+
+
 #contactmain{
 	float:left;
 	width: 25%;
