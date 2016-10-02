@@ -37,8 +37,8 @@
             <table id="ordertable">
             <tbody>
             <tr>
-                <td>First Name:</td>
-                <td><input type="text" size="30" id="fname"></td>
+                <td>First Name*:</td>
+                <td><input type="text" size="30" id="fname" required/></td>
             </tr>
             <tr>
                 <td>Last Name:</td>
@@ -191,28 +191,30 @@
                 <td><input type="text" size="30" id="lname"></td>
             </tr>
             <tr>
-                <td><label>Payment Method:</label></td>
-                <td><select id="paymentInfo">
+                <td><label>Payment Method*:</label></td>
+                <td><select id="paymentInfo" required>
+                    <option>Select an option...</option>
                     <option value="CC">Credit Card</option>
                     <option value="DB">Debit Card</option>
                     <option value="PP">Paypal</option>
                 </select></td>
             </tr>
             <tr>
-                <td>E-mail Address:</td>
-                <td><input name="email" size="30" type="email" required id="email"></td>
+                <td>E-mail Address*:</td>
+                <td><input name="email" size="30" type="email" id="email" required></td>
             </tr>
             <tr>
                 <td>Additional Comments:</td>
                 <td><textarea maxlength="100" rows="5" cols="31"></textarea></td>
             </tr>
             <tr>
-                <td align="center"><input name="submit" type="submit" id="submit" formmethod="POST"></td>
-                <td align="center"><input name="reset" type="reset" id="reset"></td>
+                <td><input name="reset" type="reset" id="reset"></td>
+                <td><input name="submit" type="submit" id="submit" formmethod="POST"></td>
             </tr>
             </tbody>
         </table>
         </form>
+        <p id="orderRequired">* - Required fields. Please fill out all fields marked with this symbol.</p>
         </div>
     </div>
     <!-- TemplateEndEditable -->

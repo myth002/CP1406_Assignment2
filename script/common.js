@@ -1,4 +1,4 @@
-$(function() {
+$(document).ready(function() {
     $('#activator1').click(function(){
         $('.overlay').fadeIn(300,function(){
             $('#product1').animate({'top':'50px'},500);
@@ -143,6 +143,7 @@ $(function() {
         var r = (19.99*n).toFixed(2);
         $("#resultc3").val('$'+r);
     });
+
     //Each time the product quantity changes, the total is recalculated
     var total=0;
     $('select').change(function () {
@@ -155,4 +156,16 @@ $(function() {
         $('input[name="totalPrice"]').val('$'+total.toFixed(2));
     });
 
+    $(function() {
+        $('#slides').slidesjs({
+            width: 1024,
+            height: 768,
+            play: {
+                active: true,
+                auto: true,
+                interval: 3000,
+                swap: true
+            }
+        });
+    });
 });
