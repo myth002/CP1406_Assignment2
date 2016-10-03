@@ -728,11 +728,14 @@ a.boxclose{
 }
 
 .pFAQ h3{
-	color:#3A85D4;
+	color:#573280;
+    background-color:#dd9ac2;
+    padding:1%;
+    border-radius:20px;
 }
 
 .pFAQ h3:hover{
-	color:#BD133A;
+	color:#574ae2;
 	font-weight: bold;
 	cursor: pointer;
 }
@@ -747,7 +750,10 @@ a.boxclose{
 }
 
 .pSvc h3{
-	color:#3A85D4
+    color:#573280;
+    background-color:#dd9ac2;
+    border-radius:20px;
+    padding:1%;
 }
 
 .pSvc h3:hover{
