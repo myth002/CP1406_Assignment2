@@ -25,14 +25,14 @@ body{
 	padding-bottom:50px;
 }
 
-#searchEngine {
+#searchEngine {				/*selector for html div containing the custom search engine*/
 	float:right;
 	width:15%;
 	padding:0;
 }
 
 .cse .gsc-control-cse,
-.gsc-control-cse {
+.gsc-control-cse {			/*Overwriting styling for google's custom search engine*/
 	padding: 0 !important;
 }
 
@@ -257,7 +257,7 @@ a.slidesjs-next,
 a.slidesjs-previous,
 a.slidesjs-play,
 a.slidesjs-stop {
-	background-image: url("../img/btns-next-prev.png");
+	background-image: url("../images/btns-next-prev.png");
 	background-repeat: no-repeat;
 	display:block;
 	width:12px;
@@ -319,7 +319,7 @@ a:hover.slidesjs-stop {
 	width: 13px;
 	height: 0;
 	padding-top: 13px;
-	background-image: url("../img/pagination.png");
+	background-image: url("../images/pagination.png");
 	background-position: 0 0;
 	float: left;
 	overflow: hidden;

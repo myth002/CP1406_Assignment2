@@ -157,7 +157,7 @@ $(document).ready(function() {
         });
         $('input[name="totalPrice"]').val('$'+total.toFixed(2));
     });
-    //jQuery code for SlidesJS responsive slide show
+    //jQuery code for SlidesJS responsive slide show on home page
     $(function() {
         $('#slides').slidesjs({
             width: 1024,
@@ -171,10 +171,11 @@ $(document).ready(function() {
             }
         });
     });
+    //jQuery code for SlidesJS responsive slide show on cafe page
     $(function() {
         $('#slidesCafe').slidesjs({
             width: 1200,
-            height: 900,
+            height: 750,
             play: {
                 active: true,
                 auto: true,
