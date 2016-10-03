@@ -1,4 +1,6 @@
+//jQuery code for the website
 $(document).ready(function() {
+    //jQuery code for the Products Page
     $('#activator1').click(function(){
         $('.overlay').fadeIn(300,function(){
             $('#product1').animate({'top':'50px'},500);
@@ -89,6 +91,7 @@ $(document).ready(function() {
             $('.overlay').fadeOut(200);
         });
     });
+    //jQuery code for the Order Form
     $("select[name='numberp1']").change(function(){
         var $d = $("select[name='numberp1']");
             var n = parseFloat($d.val());
@@ -143,7 +146,6 @@ $(document).ready(function() {
         var r = (19.99*n).toFixed(2);
         $("#resultc3").val('$'+r);
     });
-
     //Each time the product quantity changes, the total is recalculated
     var total=0;
     $('select').change(function () {
@@ -155,7 +157,7 @@ $(document).ready(function() {
         });
         $('input[name="totalPrice"]').val('$'+total.toFixed(2));
     });
-
+    //jQuery code for SlidesJS responsive slide show
     $(function() {
         $('#slides').slidesjs({
             width: 1024,
@@ -169,6 +171,7 @@ $(document).ready(function() {
             }
         });
     });
+    //jQuery code for Search Engine functionality
         var cx = '018311955383715191124:9mwvt3kwoe4';
         var gcse = document.createElement('script');
         gcse.type = 'text/javascript';
@@ -177,7 +180,7 @@ $(document).ready(function() {
         var s = document.getElementsByTagName('script')[0];
         s.parentNode.insertBefore(gcse, s);
 });
-
+//jQuery code for Accordion functionality
 $( function() {
     $( "#accordion1" ).accordion({collapsible: true, active: false, heightStyle: "content"});
 } )
