@@ -171,6 +171,19 @@ $(document).ready(function() {
             }
         });
     });
+    $(function() {
+        $('#slidesCafe').slidesjs({
+            width: 1200,
+            height: 900,
+            play: {
+                active: true,
+                auto: true,
+                interval: 3500,
+                swap: true,
+                restartDelay: 2000
+            }
+        });
+    });
     //jQuery code for Search Engine functionality
         var cx = '018311955383715191124:9mwvt3kwoe4';
         var gcse = document.createElement('script');

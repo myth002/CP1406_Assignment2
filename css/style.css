@@ -40,6 +40,10 @@ body{
 	margin-left:15%;
 }
 
+#faqServices {
+	margin-left:0;
+}
+
 p{
 	position:relative;
 	margin-left:auto;
@@ -207,6 +211,14 @@ border-radius:10px;
 	margin-left: auto;
 	*zoom: 1;
 	width:60%;
+	position:relative;
+}
+
+#cafeSlides {
+	margin-right: auto;
+	margin-left: auto;
+	*zoom: 1;
+	width:80%;
 	position:relative;
 }
 .container:before,
