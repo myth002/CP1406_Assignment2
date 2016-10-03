@@ -56,3 +56,21 @@ https://www.google.com.sg/search?q=kids+eating+pastries&biw=1920&bih=971&tbm=isc
 
 cafefood3
 https://www.google.com.sg/search?q=kids+eating+pastries&biw=1920&bih=971&tbm=isch&tbo=u&source=univ&sa=X&ved=0ahUKEwjK9JbmjLXPAhXFMI8KHbkuCpAQsAQIHA#tbm=isch&q=pasta&imgrc=mLBAxAKRLgH15M%3A
+
+cafefood4
+https://www.google.com/imgres?imgurl=http%3A%2F%2Fdrinksfeed.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2016%2F01%2Fdiff-types-coffee.jpg&imgrefurl=http%3A%2F%2Fdrinksfeed.com%2Fstream%2Fcoffee%2F&docid=cmJ2vxAgmqKPXM&tbnid=g7BzoQ2azJYwHM%3A&w=800&h=532&bih=659&biw=1366&ved=0ahUKEwim09L5lL7PAhUq7oMKHbdrCSwQMwhPKBYwFg&iact=mrc&uact=8
+
+cafefood5
+https://www.google.com/imgres?imgurl=http%3A%2F%2Fwww.hammondsphotography.com%2Fwp-content%2Fuploads%2F2012%2F04%2FFood_photography_cinanon-Rolls.jpg&imgrefurl=http%3A%2F%2Fhammondsphotography.com%2F2012%2F04%2Ffood-photography-to-make-you-hungry%2F&docid=0dy3mTg5xNCbrM&tbnid=Gcs98eIn7WEqfM%3A&w=800&h=533&bih=659&biw=1366&ved=0ahUKEwiy7-SRlr7PAhWsy4MKHWpsA3IQMwg_KA4wDg&iact=mrc&uact=8
+
+cafefood6
+https://www.google.com/imgres?imgurl=http%3A%2F%2Fmykikicake.com%2Fwp-content%2Fuploads%2F2012%2F06%2FOne-Does-Cafe-Surry-Hills-10.jpg&imgrefurl=http%3A%2F%2Fmykikicake.com%2Freviews%2Fthe-first-drop-cafe-east-redfern%2F&docid=zL6LDvZiDAC80M&tbnid=R4EYrxqyqYjtFM%3A&w=1214&h=1009&bih=659&biw=1366&ved=0ahUKEwiy7-SRlr7PAhWsy4MKHWpsA3IQMwhbKCIwIg&iact=mrc&uact=8
+
+cafefood7
+https://www.google.com/imgres?imgurl=http%3A%2F%2Fcafeprimapasta.com%2Fwp-content%2Fuploads%2F2014%2F10%2Fprima-pasta-food-45.jpg&imgrefurl=http%3A%2F%2Fcafeprimapasta.com%2F&docid=0TRJl4FUHEoEvM&tbnid=RzWWQdf9QDlHsM%3A&w=1200&h=798&bih=659&biw=1366&ved=0ahUKEwj13tnelr7PAhXp7YMKHdKGCGMQMwhdKDcwNw&iact=mrc&uact=8
+
+cafefood8
+https://www.google.com/imgres?imgurl=https%3A%2F%2Fdelicesandgourmandises.files.wordpress.com%2F2014%2F08%2Fdelicesgourmandises-sweets-dessert-pastry.jpg&imgrefurl=https%3A%2F%2Fdelicesandgourmandises.wordpress.com%2Fcategory%2Fdelices-gourmandises-pastries%2F&docid=bXik2k72EBCWRM&tbnid=VkZMo6ONOsCCqM%3A&w=1920&h=1200&bih=659&biw=1366&ved=0ahUKEwjSj6fvlr7PAhWL7YMKHTOOBTUQMwgzKAIwAg&iact=mrc&uact=8
+
+cafefood9
+http://www.oetker.co.uk/uk-en/rezepte/r/surprise-inside-cupcakes.html
