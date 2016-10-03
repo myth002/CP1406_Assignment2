@@ -177,3 +177,13 @@ $(document).ready(function() {
         var s = document.getElementsByTagName('script')[0];
         s.parentNode.insertBefore(gcse, s);
 });
+
+$( function() {
+    $( "#accordion1" ).accordion({collapsible: true, active: false, heightStyle: "content"});
+} )
+
+$( function() {
+    $( "#accordion2" ).accordion({collapsible: true, active: false, heightStyle: "content"});} )
+
+$( function() {
+    $( "#accordion3" ).accordion({collapsible: true, active: false, heightStyle: "content"});} )

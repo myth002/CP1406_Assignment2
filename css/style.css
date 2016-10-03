@@ -951,9 +951,20 @@ input#submit, input#reset {
 #contactmain{
 	float:left;
 	width: 25%;
-	margin-left:20%;
+	margin-left:22%;
+	margin-right:auto;
+	margin-top:2%;
 	font-family: 'Indie Flower', cursive;
+}
 
+#contactmain span{
+	font-family:'Indie Flower', cursive;
+	font-style: italic;
+	color: #455AD7;
+}
+
+#contactmain h1{
+	font-size: 36px;
 }
 
 .pContactUs{		/* Paragraph for contactus.html*/
@@ -978,18 +989,27 @@ input#submit, input#reset {
 .pContactMap{
 	float:right;
 	width:25%;
-	margin-right:25%;
+	margin-right:23%;
+	margin-top:3%;
+}
+
+.gmap2{
+	position:relative;
+	display: inline-block;
+	margin-left:auto;
+	margin-right:auto;
+	width:30em;
+	height:25em;
+	frameborder:0;
+	border:0;
 }
 
 .feedbackform {
-	width:50%;
-	padding-left:1em;
-	padding-right:1em;
-	padding-top:1em;
-	height:auto;
-	margin-top:4%;
+	width:45%;
+	margin-top:-10%;
 	margin-left:auto;
 	margin-right:auto;
+	padding-top:1%;
 	border-radius:20px;
 	background-color:#ffe6f0;
 	line-height:200%;
@@ -999,9 +1019,8 @@ input#submit, input#reset {
 }
 
 .feedbackform h2 {
-	position: relative;
-	margin-left: 20%;
-	margin-top: 0;
+	text-align: center;
+	padding-top:1%;
 	font-size: 40px;
 	font-weight: bold;
 	font-family: 'Indie Flower', cursive;
@@ -1009,9 +1028,21 @@ input#submit, input#reset {
 }
 
 #feedbacktable {
-	width:95%;
+	position:relative;
+	width:50%;
 	margin-left:auto;
 	margin-right:auto;
+	padding-bottom:1%;
+}
+
+#feedbacktable span {
+	color:#455AD7
+}
+
+#feedbackButton{
+	align-content: center;
+	margin-right:auto;
+	margin-left:auto;
 }
 /*End of CSS for contactus.html*/
 /*Start of CSS for events.html*/
