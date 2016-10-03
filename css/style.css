@@ -106,7 +106,7 @@ left:14%;
 position:relative;
 }
 
-#table2{				/* CSS Table 2 for footer*/
+#table2{		/*Table for footer*/
 	text-align:center;
 	width:22em;
 	position:relative;
@@ -326,7 +326,7 @@ a:hover.slidesjs-stop {
 }
 /*End of CSS for index.html*/
 /*Start of CSS for about.html*/
-.image1{
+.aboutimage1{
 	padding: 1em;
 	float:left;
 	position:relative;
@@ -337,7 +337,7 @@ a:hover.slidesjs-stop {
 	margin-right:1em;
 }
 
-.image2{
+.aboutimage2{
 	padding: 1em;
 	float:right;
 	position:relative;
@@ -348,7 +348,7 @@ a:hover.slidesjs-stop {
 	margin-left:1em;
 }
 
-.image3{
+.aboutimage3{
 	padding:1em;
 	clear:left;
 	float:left;
@@ -358,7 +358,7 @@ a:hover.slidesjs-stop {
 	margin-right:1em;
 }
 
-.image4{
+.aboutimage4{
 	padding:1em;
 	clear:right;
 	float:right;
@@ -666,21 +666,12 @@ a.boxclose{
 }
 /* End of CSS for product.html*/
 /* Start of CSS for faq.html*/
-.faq1{
+.faq1{		/*H1 of the faq.html*/
 	text-align: center;
 	width:70%;
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:5%;
-	margin-bottom:5%;
-}
-
-.faq2{
-	text-align: left;
-	width:60%;
-	margin-left:18%;
-	margin-right:70%;
-	margin-top:3%;
 	margin-bottom:5%;
 }
 
@@ -690,9 +681,13 @@ a.boxclose{
 	color: #CC60D3;
 	font-weight: bold;
 }
-
-.faq2 h2 {
-	font-size: 55px;
+.faq2{		/*Structure of the body of the faq.html page*/
+	text-align: left;
+	width:60%;
+	margin-left:18%;
+	margin-right:70%;
+	margin-top:3%;
+	margin-bottom:5%;
 }
 
 .faq2 h2{
@@ -701,7 +696,7 @@ a.boxclose{
 	margin-right:auto;
 }
 
-.pFAQ{
+.pFAQ{		/*Structure for the collapsible content*/
 	font-size:22px;
 	padding:1%;
 	margin-left:10%;
@@ -720,13 +715,7 @@ a.boxclose{
 }
 /*End of CSS for faq.html*/
 /*Start of CSS for services.html*/
-.question {
-	font-size: 55px;
-	font-weight: 900;
-	font-family: 'Indie Flower', cursive;
-}
-
-.pSvc{
+.pSvc{		/*Structure for the collapsible content*/
 	margin-left:auto;
 	margin-right:auto;
 	padding:0;
@@ -744,7 +733,7 @@ a.boxclose{
 	cursor:pointer;
 }
 
-.serviceh1{
+.serviceh1{		/*H1 for service.html*/
 	margin-right:auto;
 	margin-left:auto;
 	width: 40%;
@@ -755,7 +744,7 @@ a.boxclose{
 	font-weight: bold;
 }
 
-.service2{
+.service2{		/*Structure for the main content body*/
 	text-align: left;
 	width:50%;
 	margin-left:25%;
@@ -783,7 +772,7 @@ a.boxclose{
 }
 /*End of CSS for services.html*/
 /*Start of CSS for order.html*/
-.orderform{
+.orderform{		/*Structure for order form*/
 	width:58%;
 	padding-left:1em;
 	padding-right:1em;
@@ -859,7 +848,7 @@ input#submit, input#reset {
 	font-family: 'Indie Flower', cursive;
 }
 	
-.pCafe1{
+.pCafe1{		/*Different paragraph numbers for various sections of the page*/
 	text-align: center;
 	width:40%;
 	margin-left:30%;
@@ -1074,7 +1063,7 @@ input#submit, input#reset {
 	font-size:26px;
 }
 
-.gmap1{
+.gmap1{			/*Structure for the google map plugin on the events page*/
 	position:relative;
 	display: inline-block;
 	margin-left:auto;
@@ -1115,7 +1104,7 @@ input#submit, input#reset {
 	font-weight: bolder;
 	font-family: "Indie Flower", cursive;
 }
-.eventimg1{
+.eventimg1{		/*Event Image*/
 	float:left;
 	width:60%;
 	margin-left: 20%;
