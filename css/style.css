@@ -25,6 +25,10 @@ body{
 	padding-bottom:50px;
 }
 
+#searchEngine {
+	float:right;
+}
+
 p{
 	position:relative;
 	margin-left:auto;
@@ -84,7 +88,8 @@ h2{
 	margin-left:14%;
 	position:relative;
 	float:left;
-	bottom:4px;}
+	bottom:4px;
+	coloer:#9E1946;}
 
 .footerright{text-align:left;
 	margin-left:40%;
